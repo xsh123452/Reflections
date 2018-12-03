@@ -3,13 +3,17 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
+	Working directory is a space that shows everything to you,and it has no additional fanctions.Staging area is a space that allows you storage files but don't commit,and you can make changes,such as delete or modify.Repository is a space that you can see the history version which the files you commited.
+	
 How can you use the staging area to make sure you have one commit per logical
 change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+	·When I want to make another code-version to see if the changes actually work but not affect my main code.Such as I want to create a experimental changes or I need to create a different language version.
+	·Branches will first create a main branch called "master",and it's automatic creation.Then we can use "git branch" to see how many branches exist and what are they.Use "git branch branch-name" to create a new branch,use "git checkout branch-name" to switch master branch to the chosen branch,and finally we can do some changes to the code and commit them.
+	·Master branch is a code-version that it can work perfectly all the time,and we can create many development branches to achieve some functions we want.
+	
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
